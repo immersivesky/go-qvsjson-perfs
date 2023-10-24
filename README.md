@@ -1,3 +1,3 @@
 # Benchmark results
 
-<img src="benchmark_results.png" alt="Benchmarks results" />
+<img src="benchmark_results.png" alt="Benchmark results" />
