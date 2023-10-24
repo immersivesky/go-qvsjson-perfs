@@ -20,5 +20,7 @@ func BenchmarkJSON(b *testing.B) {
 }
 
 func sendMessage(req Request) {
-	json.Marshal(req)
+	if _, err := json.Marshal(req); err != nil {
+		panic(err)
+	}
 }
